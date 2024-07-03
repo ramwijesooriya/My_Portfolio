@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import Sidenav from './components/Sidenav'
 import MainPage from './components/MainPage'
 import Work from './components/Work'
+import Contact from './components/Contact '
 
 
 function App() {
 
   return (
    <div>
-<Sidenav/>
 <MainPage/>
 <Work/>
+<Contact/>
    </div>
   )
 }
