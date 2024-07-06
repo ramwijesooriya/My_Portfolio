@@ -4,6 +4,7 @@ import Work from './components/Work'
 import Contact from './components/Contact '
 import Projects from './components/Projects'
 import Sidenav from './components/Sidenav'
+import Certifications from './components/Certifications'
 
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
    <div>
 <MainPage/>
 <Work/>
+<Certifications/>
 <Projects/>
 <Contact/>
 <Sidenav/>
+
    </div>
   )
 }
