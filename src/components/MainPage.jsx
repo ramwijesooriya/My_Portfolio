@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6'
+import { FaFacebook, FaLinkedin, FaTwitter,FaRegEnvelope  } from 'react-icons/fa6'
 import { TypeAnimation } from 'react-type-animation'
 
 const MainPage = () => {
@@ -30,12 +30,18 @@ const MainPage = () => {
     />
 
         </h2>
-        <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+        <div className="flex justify-between items-center pt-6 max-w-[200px] w-full space-x-4">
+  <a href="#" className="text-blue-500 hover:text-blue-600 transition duration-300 ease-in-out">
+    <FaTwitter className="cursor-pointer" size={24} />
+  </a>
+  <a href="#" className="text-blue-700 hover:text-blue-800 transition duration-300 ease-in-out">
+    <FaFacebook className="cursor-pointer" size={24} />
+  </a>
+  <a href="https://www.linkedin.com/feed/" className="text-blue-600 hover:text-blue-700 transition duration-300 ease-in-out">
+    <FaLinkedin className="cursor-pointer" size={24} />
+  </a>
+</div>
 
-          <FaTwitter className='cursor-pointer' size={20} />
-          <FaFacebook className='cursor-pointer' size={20}/>
-          <FaLinkedin className='cursor-pointer' size={20}/>
-        </div>
        </div>
 
        </div>

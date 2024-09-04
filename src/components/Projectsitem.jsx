@@ -10,7 +10,7 @@ const Projectsitem = ({img, title}) => {
      {title}
      </h3>
      <p className='pb-4 pt-2  text-white text-center '>         </p>
-     <a href="">
+     <a href="#Projectsdetails">
       <p
       className='text-center p-3 rounded-ld bg-white text-gray-700 font-bold cursor-pointer text-lg '>More info</p>
      </a>
